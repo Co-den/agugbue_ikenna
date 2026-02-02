@@ -363,6 +363,134 @@ export default function Portfolio() {
                     className="group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform"
                   />
                 </a>
+                <div className="rounded-xl overflow-hidden border border-border bg-background mb-8">
+                  <div className="aspect-video bg-gradient-to-br from-primary/20 via-accent/10 to-background flex items-center justify-center">
+                    <div className="text-center">
+                      <div className="inline-block px-6 py-3 bg-primary/20 rounded-lg mb-4">
+                        <p className="text-primary font-semibold text-sm">
+                          AUTHENTICATION
+                        </p>
+                      </div>
+                      <p className="text-2xl font-bold text-foreground">
+                        Voice-Auth
+                      </p>
+                      <p className="text-muted-foreground mt-2">
+                        Authentication System Using Voice Recognition
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="space-y-8">
+                  <div>
+                    <h4 className="text-xl font-bold text-foreground mb-3">
+                      Overview
+                    </h4>
+                    <p className="text-muted-foreground leading-relaxed">
+                      Voice-Auth is a secure authentication system that
+                      leverages voice recognition technology to provide a
+                      seamless and secure login experience. It uses advanced
+                      machine learning algorithms to analyze voice patterns and
+                      ensure only authorized users can access the system.
+                    </p>
+                  </div>
+
+                  <div>
+                    <h4 className="text-xl font-bold text-foreground mb-4">
+                      Key Features
+                    </h4>
+                    <ul className="space-y-3">
+                      {[
+                        "User registration with voice sample collection",
+                        "Voice-based authentication with machine learning algorithms",
+                        "Multi-factor authentication support",
+                        "Secure REST API with JWT authentication",
+                        "Real-time voice analysis and verification",
+                        "voiceprint management and updates",
+                      ].map((feature, i) => (
+                        <li
+                          key={i}
+                          className="flex gap-3 text-muted-foreground"
+                        >
+                          <span className="text-primary font-bold flex-shrink-0 mt-1">
+                            ✓
+                          </span>
+                          <span>{feature}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+
+                  <div>
+                    <h4 className="text-xl font-bold text-foreground mb-4">
+                      Impact & Achievements
+                    </h4>
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                      <div className="p-4 bg-background rounded-lg border border-border">
+                        <p className="text-2xl font-bold text-primary mb-2">
+                          30%
+                        </p>
+                        <p className="text-sm text-muted-foreground">
+                          Voice Recognition Accuracy Improvement
+                        </p>
+                      </div>
+                      <div className="p-4 bg-background rounded-lg border border-border">
+                        <p className="text-2xl font-bold text-primary mb-2">
+                          5K+
+                        </p>
+                        <p className="text-sm text-muted-foreground">
+                          Active Users
+                        </p>
+                      </div>
+                      <div className="p-4 bg-background rounded-lg border border-border">
+                        <p className="text-2xl font-bold text-primary mb-2">
+                          99.9%
+                        </p>
+                        <p className="text-sm text-muted-foreground">
+                          System Uptime
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div>
+                    <h4 className="text-xl font-bold text-foreground mb-3">
+                      Tech Stack
+                    </h4>
+                    <div className="flex flex-wrap gap-2">
+                      {[
+                        "React",
+                        "Next.js",
+                        "TypeScript",
+                        "Node.js",
+                        "Express",
+                        "MongoDB",
+                        "Tailwind CSS",
+                        "Shadcn UI",
+                      ].map((tech) => (
+                        <span
+                          key={tech}
+                          className="px-4 py-2 bg-primary/10 text-primary border border-primary/20 rounded-full text-sm font-medium"
+                        >
+                          {tech}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+
+                  <a
+                    href="https://voic-auth.vercel.app/login"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground font-semibold rounded-lg hover:opacity-90 transition-opacity group"
+                  >
+                    View Live Project
+                    <ExternalLink
+                      size={18}
+                      className="group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform"
+                    />
+                  </a>
+                </div>
               </div>
             </div>
           </section>
