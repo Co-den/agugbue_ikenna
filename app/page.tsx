@@ -490,6 +490,135 @@ export default function Portfolio() {
                       className="group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform"
                     />
                   </a>
+                  <div className="rounded-xl overflow-hidden border border-border bg-background mb-8">
+                    <div className="aspect-video bg-gradient-to-br from-primary/20 via-accent/10 to-background flex items-center justify-center">
+                      <div className="text-center">
+                        <div className="inline-block px-6 py-3 bg-primary/20 rounded-lg mb-4">
+                          <p className="text-primary font-semibold text-sm">
+                            FLOWDECK
+                          </p>
+                        </div>
+                        <p className="text-2xl font-bold text-foreground">
+                          Customer_health_dashboard
+                        </p>
+                        <p className="text-muted-foreground mt-2">
+                          A comprehensive dashboard for monitoring customer
+                          health metrics.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="space-y-8">
+                    <div>
+                      <h4 className="text-xl font-bold text-foreground mb-3">
+                        Overview
+                      </h4>
+                      <p className="text-muted-foreground leading-relaxed">
+                        FlowDeck is a customer health dashboard designed to help
+                        businesses monitor and analyze key customer metrics in
+                        real-time. It provides insights into customer
+                        engagement, satisfaction, and retention through an
+                        intuitive interface and powerful analytics tools.
+                      </p>
+                    </div>
+
+                    <div>
+                      <h4 className="text-xl font-bold text-foreground mb-4">
+                        Key Features
+                      </h4>
+                      <ul className="space-y-3">
+                        {[
+                          "Real-time customer health metrics and KPIs",
+                          "Customizable dashboards with drag-and-drop widgets",
+                          "Advanced analytics and reporting tools",
+                          "Integration with CRM and support systems",
+                          "Automated alerts for at-risk customers",
+                          "User management and role-based access control",
+                        ].map((feature, i) => (
+                          <li
+                            key={i}
+                            className="flex gap-3 text-muted-foreground"
+                          >
+                            <span className="text-primary font-bold flex-shrink-0 mt-1">
+                              ✓
+                            </span>
+                            <span>{feature}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+
+                    <div>
+                      <h4 className="text-xl font-bold text-foreground mb-4">
+                        Impact & Achievements
+                      </h4>
+                      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                        <div className="p-4 bg-background rounded-lg border border-border">
+                          <p className="text-2xl font-bold text-primary mb-2">
+                            ..
+                          </p>
+                          <p className="text-sm text-muted-foreground">
+                            Improvement in Customer Retention
+                          </p>
+                        </div>
+                        <div className="p-4 bg-background rounded-lg border border-border">
+                          <p className="text-2xl font-bold text-primary mb-2">
+                            ..
+                          </p>
+                          <p className="text-sm text-muted-foreground">
+                            Active Users
+                          </p>
+                        </div>
+                        <div className="p-4 bg-background rounded-lg border border-border">
+                          <p className="text-2xl font-bold text-primary mb-2">
+                            ..%
+                          </p>
+                          <p className="text-sm text-muted-foreground">
+                            System Uptime
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div>
+                      <h4 className="text-xl font-bold text-foreground mb-3">
+                        Tech Stack
+                      </h4>
+                      <div className="flex flex-wrap gap-2">
+                        {[
+                          "React",
+                          "Next.js",
+                          "TypeScript",
+                          "Node.js",
+                          "Express",
+                          "MongoDB",
+                          "Tailwind CSS",
+                          "Shadcn UI",
+                        ].map((tech) => (
+                          <span
+                            key={tech}
+                            className="px-4 py-2 bg-primary/10 text-primary border border-primary/20 rounded-full text-sm font-medium"
+                          >
+                            {tech}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+
+                    <a
+                      href="https://health-dashboard-rho-eosin.vercel.app/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground font-semibold rounded-lg hover:opacity-90 transition-opacity group"
+                    >
+                      View Live Project
+                      <ExternalLink
+                        size={18}
+                        className="group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform"
+                      />
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
