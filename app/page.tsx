@@ -177,7 +177,7 @@ export default function Portfolio() {
                 Solutions
               </h2>
               <p className="text-lg text-muted-foreground mb-8 leading-relaxed max-w-2xl text-balance">
-                Full-Stack Developer with 4+ years of experience crafting
+                Full-Stack Developer with 5 years of experience crafting
                 high-performance applications. I specialize in fintech systems,
                 secure APIs, and modern web architecture.
               </p>
